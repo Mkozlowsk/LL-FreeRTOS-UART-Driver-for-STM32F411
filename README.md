@@ -13,5 +13,5 @@ The project implements a Low-level FreeRTOS Driver library for a UART interface.
 - **CubeIDE**  
 - **C**  
 - **STM32F411 microcontroller**
-- **FreeRTOS""
+- **FreeRTOS**
 - **STM32F4 LL libraries**
