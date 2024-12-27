@@ -1,0 +1,48 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/autoip.c \
+../FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/icmp.c \
+../FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/igmp.c \
+../FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet.c \
+../FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet_chksum.c \
+../FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip.c \
+../FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_addr.c \
+../FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_frag.c 
+
+OBJS += \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/autoip.o \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/icmp.o \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/igmp.o \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet.o \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet_chksum.o \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip.o \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_addr.o \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_frag.o 
+
+C_DEPS += \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/autoip.d \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/icmp.d \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/igmp.d \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet.d \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet_chksum.d \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip.d \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_addr.d \
+./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_frag.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/%.o FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/%.su FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/%.cyclo: ../FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/%.c FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/FreeRTOS/FreeRTOS/Source" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/Drivers/CMSIS/Include" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/FreeRTOS/FreeRTOS-Plus/Source" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/FreeRTOS/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/FreeRTOS/FreeRTOS/Source/include" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-FreeRTOS-2f-FreeRTOS-2f-Demo-2f-Common-2f-ethernet-2f-lwip-2d-1-2e-4-2e-0-2f-src-2f-core-2f-ipv4
+
+clean-FreeRTOS-2f-FreeRTOS-2f-Demo-2f-Common-2f-ethernet-2f-lwip-2d-1-2e-4-2e-0-2f-src-2f-core-2f-ipv4:
+	-$(RM) ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/autoip.cyclo ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/autoip.d ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/autoip.o ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/autoip.su ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/icmp.cyclo ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/icmp.d ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/icmp.o ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/icmp.su ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/igmp.cyclo ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/igmp.d ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/igmp.o ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/igmp.su ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet.cyclo ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet.d ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet.o ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet.su ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet_chksum.cyclo ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet_chksum.d ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet_chksum.o ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/inet_chksum.su ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip.cyclo ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip.d ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip.o ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip.su ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_addr.cyclo ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_addr.d ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_addr.o ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_addr.su ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_frag.cyclo ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_frag.d ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_frag.o ./FreeRTOS/FreeRTOS/Demo/Common/ethernet/lwip-1.4.0/src/core/ipv4/ip_frag.su
+
+.PHONY: clean-FreeRTOS-2f-FreeRTOS-2f-Demo-2f-Common-2f-ethernet-2f-lwip-2d-1-2e-4-2e-0-2f-src-2f-core-2f-ipv4
+

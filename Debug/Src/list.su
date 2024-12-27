@@ -1,0 +1,6 @@
+C:/Users/Mati/Desktop/uiom/stm32f411_usartDRV/Inc/FreeRTOSConfig.h:186:12:inHandlerMode	16	static,ignoring_inline_asm
+../Src/list.c:49:6:vListInitialise	16	static
+../Src/list.c:89:6:vListInitialiseItem	16	static
+../Src/list.c:105:6:vListInsertEnd	24	static
+../Src/list.c:139:6:vListInsert	24	static
+../Src/list.c:215:13:uxListRemove	24	static

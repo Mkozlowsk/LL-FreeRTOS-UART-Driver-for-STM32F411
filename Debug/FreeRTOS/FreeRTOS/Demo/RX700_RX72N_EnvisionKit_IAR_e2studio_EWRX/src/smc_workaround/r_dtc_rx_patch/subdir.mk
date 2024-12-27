@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (11.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx.c \
+../FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx_target.c 
+
+OBJS += \
+./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx.o \
+./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx_target.o 
+
+C_DEPS += \
+./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx.d \
+./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx_target.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/%.o FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/%.su FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/%.cyclo: ../FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/%.c FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/FreeRTOS/FreeRTOS/Source" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/Drivers/CMSIS/Include" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/Drivers/STM32F4xx_HAL_Driver/Inc" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/FreeRTOS/FreeRTOS-Plus/Source" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/FreeRTOS/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/FreeRTOS/FreeRTOS/Source/include" -I"C:/Users/panba/STM32CubeIDE/workspace_1.14.0/stm32f411_usartDRV/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-FreeRTOS-2f-FreeRTOS-2f-Demo-2f-RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX-2f-src-2f-smc_workaround-2f-r_dtc_rx_patch
+
+clean-FreeRTOS-2f-FreeRTOS-2f-Demo-2f-RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX-2f-src-2f-smc_workaround-2f-r_dtc_rx_patch:
+	-$(RM) ./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx.cyclo ./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx.d ./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx.o ./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx.su ./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx_target.cyclo ./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx_target.d ./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx_target.o ./FreeRTOS/FreeRTOS/Demo/RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX/src/smc_workaround/r_dtc_rx_patch/r_dtc_rx_target.su
+
+.PHONY: clean-FreeRTOS-2f-FreeRTOS-2f-Demo-2f-RX700_RX72N_EnvisionKit_IAR_e2studio_EWRX-2f-src-2f-smc_workaround-2f-r_dtc_rx_patch
+

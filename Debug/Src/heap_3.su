@@ -1,0 +1,4 @@
+C:/Users/Mati/Desktop/uiom/stm32f411_usartDRV/Inc/FreeRTOSConfig.h:186:12:inHandlerMode	16	static,ignoring_inline_asm
+../Src/heap_3.c:59:8:pvPortMalloc	24	static
+../Src/heap_3.c:83:6:vPortFree	16	static
+../Src/heap_3.c:102:6:vPortHeapResetState	4	static
